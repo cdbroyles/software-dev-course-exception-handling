@@ -74,10 +74,13 @@ Problems to Solve
 
 Invalid Input Errors:
   What happens if the user provides a negative adoption fee or leaves the name blank?
+  The program throws an exception that states "Error: Invalid animal name or adoption fee!".  The program also terminates.
   What happens if the user tries to find the fee for an animal that hasn’t been added?
+  The program throws an exception that states "Error: Animal not found in records!".  The program also terminates.
 
 Code Flow Problems:
   What happens if the program throws an exception? Does the rest of the code continue running?
+  The rest of the code stops running.
 
 Structured Exception Handling:
   Add try/catch blocks to handle the above errors gracefully.
